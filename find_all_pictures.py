@@ -5,7 +5,7 @@ import urllib2
 #soup = BeautifulSoup(open("index.html"))
  
 #homepage
-homepage = urllib2.urlopen('http://www.google.com').read()
+homepage = urllib2.urlopen('http://imdb.com').read()
 soup = BeautifulSoup(homepage)
  
 images = soup.find_all('img')
